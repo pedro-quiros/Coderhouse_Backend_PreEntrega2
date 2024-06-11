@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"status": false,
+		"title": "UPDATED TITLE",
+		"description": "UPDATED DESCRIPTION",
+		"code": "UPDATED CODE",
+		"price": -1,
+		"stock": -1,
+		"category": "UPDATED CATEGORY",
+		"thumbnails": [
+			"https://example.com/image1.jpg",
+			"https://example.com/image2.jpg"
+		]
+	},
+	{
+		"id": 2,
+		"status": true,
+		"title": "Auriculares Inalámbricos",
+		"description": "Auriculares con cancelación de ruido",
+		"code": "AIR2024",
+		"price": 200,
+		"stock": 30,
+		"category": "Accesorios",
+		"thumbnails": []
+	},
+	{
+		"title": "Computadora",
+		"code": "CPU741",
+		"price": "5000.30",
+		"category": "Tech",
+		"description": "Muy rapida!",
+		"stock": "2",
+		"status": true,
+		"thumbnails": [],
+		"id": 3
+	}
+]

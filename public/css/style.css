@@ -1,0 +1,103 @@
+@keyframes tituloVerdeFluor {
+	from {
+		text-shadow: 2px 2px 10px green;
+	}
+	to {
+		text-shadow: 2px 2px 10px white;
+	}
+}
+
+.titulo {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.2rem;
+	  text-decoration:underline;
+    animation-name: tituloVerdeFluor;
+    animation-duration: 3s;
+}
+
+.center-content {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 500px;
+}
+
+.footer {
+	color: black;
+	background-color: black;
+	font-size: 1rem; 
+	font-family: 'Roboto', sans-serif; 
+	padding: 0.5rem;
+	background: linear-gradient(to left, green, white); 
+	text-align: center; 
+  font-weight: bold;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+  background-color: lightseagreen;
+  padding: 15px;
+  border-radius: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+input[type=text],
+input[type=number],
+input[type=checkbox] { 
+  height: 27px; 
+  margin: 10px;
+  width: 30%;
+  padding: 5px;
+  margin: 10px ;
+  box-sizing: border-box;
+  margin-bottom:25px; 
+}
+
+  #btnConfirm {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    height:50px;
+    width:8%;
+    font-size: 1rem;
+    border-radius: 15px;
+  }
+
+.tablaProductos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 25px;
+}
+  .tablaProductos th {
+    background-color: green;
+    color: white;
+  }
+  .tablaProductos td, .tablaProductos th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  .tablaProductos tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .tablaProductos tr:hover {
+    background-color: #ddd;
+  }

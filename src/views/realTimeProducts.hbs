@@ -1,0 +1,63 @@
+<div class= "titulo" >
+   <h1>Real Time Products</h1>
+    </div>
+
+<form class="formulario" id="formulario">
+    <label for="title" >Nombre producto: </label>
+    <input type="text" id="title">
+
+    <label for = "description">Descripción: </label>
+    <input type="text" id="description">
+
+    <label for="status" >Estado: </label>
+    <input type="checkbox" id="status" checked>
+
+    <label for="code">Código: </label>
+    <input type="text" id="code">
+
+    <label for="price" class = "inputField">Precio $: </label>
+    <input type="number" id="price" step="0.01">
+
+    <label for="stock">Stock: </label>
+    <input type="number" id="stock">
+
+    <label for = "category">Categoría: </label>
+    <input type="text" id="category">
+
+    <label for="thumbnails">URL Imagen: </label>
+    <input type="text" id="thumbnails">
+
+    <button id="btnConfirm" type="submit" >Enviar</button>
+  </form>
+
+<div class= "titulo">
+     <h1> Lista de Productos</h1>
+    </div>
+   <div class="tablaProductos">
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Code</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Stock</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Thumbnails</th>
+                    </tr>
+                </thead>
+                <tbody id="productList">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/main.js"></script>
+ <link rel = "stylesheet" href = "/css/style.css">
+
+
+
