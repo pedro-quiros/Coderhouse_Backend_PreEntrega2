@@ -7,7 +7,7 @@ socket.on('message', (message) => {
 // Escuchar la lista actualizada de productos del servidor
 socket.on('productsUpdated', (products) => {
     console.log('Lista actualizada de productos:', products);
-    renderProductList(products); // Llama a una función para renderizar la lista de productos
+    renderProductList(products); // Para renderizar la lista de productos
 });
 
 // Manejar el envío del formulario
